@@ -20,6 +20,9 @@ RewriteEngine On
 RewriteRule ^/$ index.php [L]
 RewriteRule ^login$ pages/login.php [L]
 RewriteRule ^login$ pages/orders.php [L]
-
+RewriteRule ^login$ pages/reports.php [L]
+RewriteRule ^login$ pages/dashboard.php [L]
+RewriteRule ^login$ pages/staff.php [L]
+RewriteRule ^login$ pages/stock.php [L]
 
 

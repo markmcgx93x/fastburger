@@ -8,6 +8,6 @@ $conn = mysqli_connect($hn, $un, $pw, $db);
 if (!$conn){
     die('Connection Failed: ' . mysqli_connect_error());
 }
-else {
-    echo('connection is successful');
-}
+//else {
+//    echo('connection is successful');
+//}
